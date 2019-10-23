@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">0</td><td class="numi">44.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">Keanu.iOS_Automation.ChatCreateEditTest</td><td><a href="#m1"><b>setUp</b>  </a></td><td class="numi">1</td><td>1571798901160</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="2">Keanu.iOS_Automation.ChatCreateEditTest</td><td><a href="#m2"><b>checkAlerts</b>  </a></td><td class="numi">1</td><td>1571798944100</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m3"><b>handelErrorPopup</b>  </a></td><td class="numi">1</td><td>1571798944101</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">Keanu.iOS_Automation.ChatCreateEditTest</td><td><a href="#m4"><b>userLogin</b>  </a></td><td class="numi">1</td><td>1571798944098</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m5"><b>createChatRoom</b>  </a></td><td class="numi">1</td><td>1571798944103</td><td class="numi">0</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">Keanu.iOS_Automation.ChatCreateEditTest:setUp</h2>
+<div style="padding-left:3em">
+<p>Connection refused
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Agams-MBP&apos;, ip: &apos;fe80:0:0:0:1069:5b7d:b8f7:ded1%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;13.0.1&apos;
+Driver info: driver.version: AppiumDriver</p>
+io.appium.java_client.remote.AppiumCommandExecutor.lambda$5(AppiumCommandExecutor.java:251)
+<br/>at java.base/java.util.Optional.orElseGet(Optional.java:362)
+<br/>at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+<br/>at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+<br/>at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:94)
+<br/>at keanu.iOS_Automation.Library.AppLibrary.getDriverInstance(AppLibrary.java:217)
+<br/>at Keanu.iOS_Automation.ChatCreateEditTest.setUp(ChatCreateEditTest.java:51)
+<br/>25 lines not shown
+<p>Caused by Connection refused</p>
+java.base/sun.nio.ch.Net.pollConnect(Native Method)
+<br/>at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:579)
+<br/>at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+<br/>at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+<br/>at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:339)
+<br/>at java.base/java.net.Socket.connect(Socket.java:603)
+<br/>at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+<br/>at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+<br/>at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+<br/>at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+<br/>at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+<br/>at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+<br/>at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+<br/>at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+<br/>at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+<br/>at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+<br/>at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+<br/>at okhttp3.RealCall.execute(RealCall.java:77)
+<br/>at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+<br/>at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+<br/>at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+<br/>at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+<br/>at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:94)
+<br/>at keanu.iOS_Automation.Library.AppLibrary.getDriverInstance(AppLibrary.java:217)
+<br/>at Keanu.iOS_Automation.ChatCreateEditTest.setUp(ChatCreateEditTest.java:51)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Keanu.iOS_Automation.ChatCreateEditTest:checkAlerts</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Keanu.iOS_Automation.ChatCreateEditTest:handelErrorPopup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">Keanu.iOS_Automation.ChatCreateEditTest:userLogin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Keanu.iOS_Automation.ChatCreateEditTest:createChatRoom</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

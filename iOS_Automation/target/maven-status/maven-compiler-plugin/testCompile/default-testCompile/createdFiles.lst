@@ -1,0 +1,15 @@
+Keanu/iOS_Automation/UsernameEditTest.class
+Keanu/iOS_Automation/SignInUiTest.class
+Keanu/iOS_Automation/ChatCreateEditTest.class
+Keanu/iOS_Automation/CloseAccountTest.class
+Keanu/iOS_Automation/DiscoverScreenPhotoStreamTest.class
+Keanu/iOS_Automation/FriendsScreenUiTest.class
+Keanu/iOS_Automation/SignInValidationTest.class
+Keanu/iOS_Automation/SignUpUiTest.class
+Keanu/iOS_Automation/MeScreenLinkAnotherIdUiTest.class
+Keanu/iOS_Automation/DiscoverScreenChatGroupTest.class
+Keanu/iOS_Automation/SignInFunctionalityTest.class
+Keanu/iOS_Automation/SignUpFunctionalityTest.class
+Keanu/iOS_Automation/SignUpValidationTest.class
+Keanu/iOS_Automation/MeScreenChangePassTest.class
+Keanu/iOS_Automation/ChooseFriend_AddFriendScreenTest.class
